@@ -1,14 +1,14 @@
-# Currency-Converter
+Currency-Converter
 A currency converter which uses USD as base currency and converts into required currency. 
-# Currency Converter Web App
+Currency Converter Web App
 
-## i. Project Overview
+i. Project Overview
 
 This project is a simple and responsive **Currency Converter Web Application** that allows users to convert an amount from one currency to another using real-time exchange rates.
 
 The application fetches live currency data from an external API and dynamically populates the currency dropdowns. Users can enter an amount, select the source and target currencies, and instantly get the converted value.
 
-### Key Features
+Key Features
 
 * Real-time currency conversion
 * Dynamic currency list loading
@@ -16,19 +16,17 @@ The application fetches live currency data from an external API and dynamically 
 * Error handling for invalid inputs and API failures
 * Responsive design for mobile and desktop
 
----
+ii. Technologies Used
 
-## ii. Technologies Used
+Frontend
 
-### Frontend
-
-* **HTML5** – Structure of the web page
-* **CSS3** – Styling and responsive design
-* **JavaScript (Vanilla JS)** – Application logic and API handling
+* HTML5 – Structure of the web page
+* CSS3 – Styling and responsive design
+* JavaScript (Vanilla JS) – Application logic and API handling
 
 API
 
-* **ExchangeRate API** – Used to fetch real-time currency exchange rates
+* ExchangeRate API – Used to fetch real-time currency exchange rates
   Endpoint used: `https://api.exchangerate-api.com/v4/latest/USD`
 
 Instructions to Run the Project
